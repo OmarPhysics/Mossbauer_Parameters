@@ -1,0 +1,21 @@
+! DFT B3LYP 6-31g TightSCF Grid5 NoFinalGrid SlowConv
+%pal
+nprocs 16
+end
+%method SpecialGridAtoms 26
+SpecialGridIntAcc 7
+end
+%basis NewGTO 26 "CP(PPP)" end
+end
+# [Fe(lll)(Cl)4]1-  s = 5/2
+* xyz -1 6
+Fe  0.002291  0.001525 -0.000013
+Cl  2.234628 -0.003950  0.000015
+Cl -0.749004  2.103068  0.000006
+Cl -0.743967 -1.050327 -1.821818
+Cl -0.743948 -1.050316  1.821811
+*
+# Note that the EPR block needs to below the coordinate block for 
+# the “all Fe” command (all irons) to be recognized. 
+%eprnmr nuclei = all Fe {rho, fgrad}
+end
