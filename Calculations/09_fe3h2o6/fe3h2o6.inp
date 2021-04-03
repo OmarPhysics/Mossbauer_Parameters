@@ -1,0 +1,35 @@
+! DFT B3LYP 6-31g TightSCF Grid5 NoFinalGrid SlowConv
+%pal
+nprocs 16
+end
+%method SpecialGridAtoms 26
+SpecialGridIntAcc 7
+end
+%basis NewGTO 26 "CP(PPP)" end
+end
+# [Fe(lll)(H2O)6]3+ , s = 5/2 ,  m = 2s + 1
+* xyz 3 6
+Fe -0.000411 -0.000246 -0.000775
+O  -0.167444  1.039129  1.718988
+H   0.366677  1.821113  1.953619
+O  -1.202644  1.288334 -0.980811
+H  -1.651846  2.054751 -0.579763
+O  -1.605608 -1.105693  0.509300
+H  -2.530881 -0.892003  0.288257
+O   0.168539 -1.041049 -1.719384
+H   0.865752 -0.926020 -2.391147
+O   1.201001 -1.287151  0.983345
+H   1.461288 -1.224386  1.921214
+O   1.604203  1.105655 -0.512009
+H   2.529380  0.891372 -0.291077
+H  -1.462647  1.230426 -1.919134
+H   1.597565  1.901203 -1.075919
+H  -0.863921  0.926491  2.391934
+H   1.650092 -2.055598  0.586009
+H  -0.365028 -1.822453 -1.957149
+H  -1.598574 -1.900879  1.073614
+*
+# Note that the EPR block needs to below the coordinate block for 
+# the “all Fe” command (all irons) to be recognized. 
+%eprnmr nuclei = all Fe {rho, fgrad}
+end
