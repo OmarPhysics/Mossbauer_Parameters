@@ -1,0 +1,48 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+------------------------ !PROPERTY! -------------------------
+   name:        PAL_Flags
+   comment:     The PAL Flags
+   geom. index: 1
+   prop. index: 1
+        Diskflag:     2
+------------------------ !PROPERTY! -------------------------
+   name:        SCF_Energy
+   comment:     The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:    -1861.7116606850
+------------------------ !PROPERTY! -------------------------
+   name:        SCF_Electric_Properties
+   comment:     The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : fe2f6.scfp 
+       Do Dipole Moment Calculation      : 1 
+       Do Quadrupole Moment Calculation  : 0 
+       Do Polarizability Calculation     : 0 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        0.0007243270
+        Electronic Contribution:
+                   0          1          2    
+      0      -0.000122   0.000250   0.000123
+        Nuclear Contribution:
+                   0          1          2    
+      0       0.000024  -0.000008  -0.000009
+        Total Dipole moment:
+                   0          1          2    
+      0      -0.000099   0.000242   0.000114
+-------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+-------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    7        Geometry Index:    1
+    Coordinates:
+            Fe    -0.000035000000    0.000012000000    0.000014000000
+            F      2.116808000000   -0.003546000000    0.032360000000
+            F     -2.116824000000    0.001611000000   -0.030945000000
+            F     -0.003602000000    2.164955000000    0.001902000000
+            F      0.001648000000   -2.165219000000   -0.003295000000
+            F      0.032586000000    0.003638000000    2.109790000000
+            F     -0.030580000000   -0.001452000000   -2.109825000000
