@@ -1,0 +1,46 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+------------------------ !PROPERTY! -------------------------
+   name:        PAL_Flags
+   comment:     The PAL Flags
+   geom. index: 1
+   prop. index: 1
+        Diskflag:     2
+------------------------ !PROPERTY! -------------------------
+   name:        SCF_Energy
+   comment:     The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:    -3104.3438428341
+------------------------ !PROPERTY! -------------------------
+   name:        SCF_Electric_Properties
+   comment:     The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : fe3cl4.scfp 
+       Do Dipole Moment Calculation      : 1 
+       Do Quadrupole Moment Calculation  : 0 
+       Do Polarizability Calculation     : 0 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        0.0051776300
+        Electronic Contribution:
+                   0          1          2    
+      0       0.004299   0.003611  -0.000032
+        Nuclear Contribution:
+                   0          1          2    
+      0      -0.003030  -0.002017   0.000017
+        Total Dipole moment:
+                   0          1          2    
+      0       0.001268   0.001594  -0.000015
+-------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+-------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    5        Geometry Index:    1
+    Coordinates:
+            Fe     0.002291000000    0.001525000000   -0.000013000000
+            Cl     2.234628000000   -0.003950000000    0.000015000000
+            Cl    -0.749004000000    2.103068000000    0.000006000000
+            Cl    -0.743967000000   -1.050327000000   -1.821818000000
+            Cl    -0.743948000000   -1.050316000000    1.821811000000
